@@ -1,0 +1,526 @@
+.item{
+border-radius: 300px;
+}
+#experince{
+	"margin-left: 300px; position: absolute; margin-top: 1700px;
+
+}
+body {
+  font-family:sans-serif;
+  scroll-behavior: smooth;
+  height:   5000px;
+}
+#main:hover.sidenav{
+  transition:9s;
+  background-color:black; 
+}
+.sidenav:hover{
+  background-color: lightgreen;
+  transition: 4s;
+  color: black;
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#main {
+  position: absolute;
+  margin-left: 289px;
+  font-size: 28px;
+margin-top: -10px;
+ background-image: url(1.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% ;
+ height: 700px;
+}
+#main:hover{
+ opacity: 0.8;
+ font-weight: 100px;
+}
+#Ed
+{
+   position: absolute;
+margin-left: 289px;
+  font-size: 28px;
+margin-top: 800px;
+background-color: lightblue;
+ width: 76.92%;
+ height: 1600px; 
+}
+.imgsection{
+  position: absolute;
+  margin-left: 300px;
+ 
+}
+.mained{
+  margin-left:  200px;
+  width:  60%;
+  height:   800px;
+  color:  white;
+
+} 
+.school{
+background-image: url("school.jpg");
+border-radius: 10px;
+  width:  40%;
+  height:  120px;
+}
+.college{
+background-image: url("college.jpg");
+  background-color:   yellow;
+  width:  80%;
+  height:  140px;
+  border-radius: 10px;
+ 
+}
+.currenteducation{
+  background-image: url("cdi.jpg");
+   background-color:   yellow;
+  width:  100%;
+  height:  100px; border-radius: 10px;
+}
+.name{
+background-image: url("education.jpg");
+
+  width:  100%;
+  height:  100px;
+  border-radius: 10px;
+}
+.name:hover{
+  background-image: none;
+  background-color: yellow;
+  transition: 3s;
+  color: white;
+  width: 100%;
+  height: 130px;
+}
+.school:hover{
+  background-image: none;
+  background-color: yellow;
+  transition: 3s;
+  color: white;
+  width: 100%;
+  height: 130px;
+}
+.college:hover{
+  background-image: none;
+  background-color: yellow;
+  transition: 3s;
+  color: white;
+  width: 100%;
+  height: 130px;
+}
+.currenteducation:hover{
+  background-image: none;
+  background-color: green;
+  transition: 3s;
+  color: white;
+  width: 100%;
+  height: 130px;
+}
+
+h2{
+  font-size:  18px;
+
+    background-color:   black;
+}
+h2:hover{
+  font-size:  22px;
+transition: 5s;
+    background-color:   yellow;
+}
+h3{
+
+   color: black;
+  font-size:  15px;
+
+
+}
+ h3:hover{
+  font-size:  18px;
+transition: 10s;
+    background-color:   white;
+    margin-left: 400px;
+}
+#socialpart{
+  margin-left: 50px;
+}
+#mainp{
+  margin-left: 50px;
+  width: 950px;
+}
+#mainh2{
+  margin-left: 50px;
+  margin-top: 310px;
+}
+#sociatinsta,#socialface{
+  width: 70px;
+  height: 20px;
+}
+
+h4{
+color: black;
+font-size:  12px;
+}
+#experince{
+margin-left: 289px; 
+position: absolute; 
+margin-top: 1700px;
+background-color: purple;
+}
+.firstexp{
+  margin-left: 400px;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background-color: green;
+}
+.first{
+  position: absolute;
+  margin-top: 
+
+}
+#skill{
+margin-left: px;
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  margin-top: 2700px;
+  background-color:#b1fc03;
+  
+  overflow-wrap:  normal; 
+
+}
+#skills{
+  margin-left:  50px;
+}
+
+#skillname{
+  margin-top:   100px;
+  display:flex  ;   
+width:  80%;
+height:   700px;
+ position:  absolute;  
+  margin-left:  400px;
+}
+#htmlskill{
+  background-color: #b1fc03;
+  width: 200px;
+  height: 100px;
+}
+#cssskill{
+  background-color: #b21dcc;
+  width: 200px;
+  height: 100px;
+}
+#javascriptskill{
+  background-color: #a0bf30;
+  width: 200px;
+  height: 100px;
+}
+#computerskill{
+  background-color: #3075bf;
+  width: 200px;
+  height: 100px;
+}
+#htmlskill:hover{
+  width:98%;
+  transition:   3s;
+}
+#cssskill:hover{
+ width:98%;
+  transition:   3s;
+}
+#javascriptskill:hover{
+  width:98%;
+  transition:   3s;
+}
+#computerskill:hover{
+ width:98%;
+  transition:   3s;
+}
+@media only screen and (max-width: 600px) 
+{
+  #skill{
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  margin-top: 30px;
+  background-color: lightpink;
+}
+ #formobile{
+  transition: 3s;
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+display: flex;
+  
+}
+
+
+
+#formobile a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 11.3px;
+  color: yellow;
+  display: inline-block;
+}
+#formobile a:hover {
+  color: #f1f1f1;
+}
+
+
+#main{
+  position: absolute;
+  margin-left: -10px;
+  background-image: url(1.jpg);
+
+}
+#mainh2{
+  color: white;
+}
+#mainp{
+  width: 70%;
+}
+#socialpart{
+  width: 50%;
+ 
+ 
+}
+#sociatinsta,#socialface{
+  width: 70px;
+  height: 20px;
+}
+.firstexp{
+  width: 100%;
+
+}
+.first{
+  margin-left: 410px;
+  font-size: 40px;
+}
+#Ed
+{
+ position: absolute;
+margin-left: 50px;
+  font-size: 28px;
+margin-top: 1000px;
+background-color: lightgreen;
+ width: 76.92%;
+ height: 750px; 
+}
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  background: purple;
+  padding: 0;
+  margin: 0;
+}
+
+.imgsection{
+  position: absolute;
+  margin-left: 100px;
+ 
+}
+.mained{
+  margin-left:  70px;
+  width:  60%;
+  height:   800px;
+  color:  white;
+
+} 
+.school{
+background-image: url("school.jpg");
+border-radius: 10px;
+  width:  40%;
+  height:  120px;
+}
+.college{
+background-image: url("college.jpg");
+  background-color:   yellow;
+  width:  80%;
+  height:  140px;
+  border-radius: 10px;
+ 
+}
+.currenteducation{
+  background-image: url("cdi.jpg");
+   background-color:   yellow;
+  width:  100%;
+  height:  100px; border-radius: 10px;
+}
+.name{
+background-image: url("education.jpg");
+margin-top: 90px;
+  width:  100%;
+  height:  100px;
+  border-radius: 10px;
+}
+.name:hover{
+  background-image: none;
+  background-color: yellow;
+  transition: 3s;
+  color: white;
+  width: 100%;
+  height: 130px;
+}
+.school:hover{
+  background-image: none;
+  background-color: yellow;
+  transition: 3s;
+  color: white;
+  width: 100%;
+  height: 130px;
+}
+.college:hover{
+  background-image: none;
+  background-color: yellow;
+  transition: 3s;
+  color: white;
+  width: 100%;
+  height: 130px;
+}
+.currenteducation:hover{
+  background-image: none;
+  background-color: green;
+  transition: 3s;
+  color: white;
+  width: 100%;
+  height: 130px;
+}
+#experince{
+  position: absolute;
+  
+  width: 100%;
+  height: 700px;
+  margin-left: 10px;
+  overflow: all;
+}
+
+.container{
+  background-color: blue;
+  width: 100%;
+  height: 700px;
+
+}
+ 
+.example{
+    position: absolute;
+  margin-top: -5px;
+  height: 400px;
+  width: 100px;
+
+}
+.item{
+  padding-top: 100px;
+}
+}
+img{
+  width: 485px;
+  height: 150px;
+}
+.firstexp{
+  width: 100%;
+  position: absolute;
+  color: green;
+  height: 40px;
+  margin-left: -300px;
+  margin-top: 10px;
+
+}
+.first{
+  background-color: black;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  margin-top: -500px;
+  height: 80px;
+  width: 50%;
+}
+#expimg{
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 300px;
+
+
+}
+
+#skill{
+  position: absolute;
+  
+  width: 100%;
+  height: 700px;
+  margin-left: 10px;
+  margin-top:   3200px;
+  
+}
+h3{
+  padding-left: 10px;
+  margin-top:   2px;
+
+text-align:   center; 
+}
+#skills
+{
+  margin-left:  200px;
+  padding-left:   10px;
+}
+#skillname{
+   display: flex;
+  margin-left:  -100px;
+   width: 100%;
+  height: 700px;
+  padding-left:   10px;
+  margin-top:   200px;
+}
+#htmlskill:hover{
+  height:  98%;
+  transition:   3s;
+}
+#cssskill:hover{
+ height:  98%;
+  transition:   3s;
+}
+#javascriptskill:hover{
+  height:  98%;
+  transition:   3s;
+}
+#computerskill:hover{
+ height:  98%;
+  transition:   3s;
+}
+
+
+
+}
